@@ -11,6 +11,17 @@ namespace WebApp1.Controllers
         // GET: ComicBook
         public ActionResult Index()
         {
+            ViewBag.SeriesTitle = "Comic Book Index";
+            ViewBag.IssueNumber = 550;
+            ViewBag.Description = "<p>Descrition area ..........</p>";
+            ViewBag.Artists = new string[]
+            {
+                "Script: Dan Bam",
+                "Pen: Red Hurnl",
+                "Socs: Mices",
+                "Colors: Edgar Delgado S"
+            };
+
             return View();
         }
     }
