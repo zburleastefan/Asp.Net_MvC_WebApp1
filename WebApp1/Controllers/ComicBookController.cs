@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace WebApp1.Controllers
 {
-    public class UploadController : Controller
+    public class ComicBookController : Controller
     {
-        // GET: Upload
+        // GET: ComicBook
         public ActionResult Index()
         {
             return View();
         }
-
     }
 }
